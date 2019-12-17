@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div id="products"></div>
+        <div id="aside">
+            <div id="productCode"></div>
+            <div id="keyPad">
+                <div id="left">
+                    <div class="number">
+                        <span>1</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>3</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>5</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>7</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>9</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number" id="eraseBtn">
+                        <span>Del</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                </div>
+                <div id="right">
+                    <div class="number">
+                        <span>2</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>4</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>6</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>8</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number">
+                        <span>0</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                    <div class="number" id="codOk">
+                        <span>OK</span>
+                        <img src="./media/metal-button.png" />
+                    </div>
+                </div>
+            </div>
+           <hr>
+            <div id="credit">
+                <div id="sum"></div>
+                <input type="number" id="sumNumber">
+                <button id="okBtn">OK</button>
+            </div>
+            <div id="change">
+                <button id="changeBtn">Change</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
