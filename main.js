@@ -154,7 +154,7 @@ function deleteCode() {
 
 function onNumberPress(event) {
     var productCode = document.getElementById("productCode");
-    var key = event.target;
+    var key = event.target.closest("div.number"); // luam cel mai apropiat div cu clasa "number" de event.target
     if (productCode.innerHTML.length === 2) {
         //da produsul
         returnProduct();
@@ -173,4 +173,5 @@ function returnProduct() {
     //stoc --
     //bani --
     //stoc = zero--> schimbam imaginea
+    //de scos imaginea de pe buton cand returnam produsul si de afisat in ecran codul
 }
