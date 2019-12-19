@@ -63,6 +63,14 @@ body {
     justify-content: space-evenly;
 }
 
+#productCode {
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .number {
     display: flex;
     flex-direction: column;
