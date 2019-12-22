@@ -9,8 +9,6 @@ You need to follow those steps:
 3. Press OK if / when the amount is the right one;
 4. Now you can pressing the numbers from the keypad above the Sum section, along with OK or DEL (if you want to delete the code number);
 5. If you need to take your change, please press Change button and the Vending Machine will return your change.
-
-Some addition info:
 6. You can see under Dev Tool the Stock of the Products;
 7. If you are getting the same products until Stock = 0, you can see the unavailablity of that product by changing the image with one of Out Of Stock and also, an error will show up;
 8. If you try to get a product which does not exist, you will get an error instead;
