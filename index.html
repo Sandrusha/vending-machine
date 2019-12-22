@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Quantico|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
         <div id="products"></div>
         <div id="aside">
+            <div id="errs"></div>
             <div id="productCode"></div>
             <div id="keyPad">
                 <div id="left">
@@ -36,7 +38,7 @@
                         <span>9</span>
                         <img src="./media/metal-button.png" />
                     </div>
-                    <div class="number" id="eraseBtn">
+                    <div id="eraseBtn">
                         <span>Del</span>
                         <img src="./media/metal-button.png" />
                     </div>
@@ -62,7 +64,7 @@
                         <span>0</span>
                         <img src="./media/metal-button.png" />
                     </div>
-                    <div class="number" id="codOk">
+                    <div id="codOk">
                         <span>OK</span>
                         <img src="./media/metal-button.png" />
                     </div>
@@ -70,11 +72,9 @@
             </div>
            <hr>
             <div id="credit">
-                <div id="sum"></div>
-                <input type="number" id="sumNumber">
+                <div id="sum">0</div>
+                <input type="number" id="sumNumber" placeholder=" Enter the amount">
                 <button id="okBtn">OK</button>
-            </div>
-            <div id="change">
                 <button id="changeBtn">Change</button>
             </div>
         </div>
