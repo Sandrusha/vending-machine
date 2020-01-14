@@ -1,8 +1,6 @@
 Hi guys and welcome to my Vending Machine project!
 
-First of all, this project is made in vanilla JS. I started learning React from our interview, but I didn't have enough time to do the React application. I sincerely tell you that in the next period I will also make this Vending Machine as a React app :) 
-
-Secondly, I want to let you know how my Vending Machine works (PC only).
+I just want to let you know how my Vending Machine works (PC only).
 You need to follow those steps:
 1. Open https://sandrusha.github.io/vending-machine/;
 2. Enter the amount of money you have for getting some awesome products from the Vendomat;
